@@ -1,0 +1,477 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TransactionsScreen /> TransactionsScreen renders correctly 1`] = `
+<View
+  style={
+    {
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      {
+        "backgroundColor": "#fff",
+        "flexDirection": "row",
+        "justifyContent": "space-around",
+        "paddingVertical": 10,
+      }
+    }
+  >
+    <View
+      accessibilityState={
+        {
+          "busy": undefined,
+          "checked": undefined,
+          "disabled": undefined,
+          "expanded": undefined,
+          "selected": undefined,
+        }
+      }
+      accessibilityValue={
+        {
+          "max": undefined,
+          "min": undefined,
+          "now": undefined,
+          "text": undefined,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        {
+          "backgroundColor": "#4CAF50",
+          "borderRadius": 20,
+          "opacity": 1,
+          "paddingHorizontal": 20,
+          "paddingVertical": 10,
+        }
+      }
+    >
+      <Text
+        style={
+          [
+            {
+              "color": "#333",
+              "fontSize": 16,
+            },
+            {
+              "color": "#fff",
+            },
+          ]
+        }
+      >
+        All
+      </Text>
+    </View>
+    <View
+      accessibilityState={
+        {
+          "busy": undefined,
+          "checked": undefined,
+          "disabled": undefined,
+          "expanded": undefined,
+          "selected": undefined,
+        }
+      }
+      accessibilityValue={
+        {
+          "max": undefined,
+          "min": undefined,
+          "now": undefined,
+          "text": undefined,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        {
+          "backgroundColor": "#e0e0e0",
+          "borderRadius": 20,
+          "opacity": 1,
+          "paddingHorizontal": 20,
+          "paddingVertical": 10,
+        }
+      }
+    >
+      <Text
+        style={
+          [
+            {
+              "color": "#333",
+              "fontSize": 16,
+            },
+            false,
+          ]
+        }
+      >
+        Opened
+      </Text>
+    </View>
+    <View
+      accessibilityState={
+        {
+          "busy": undefined,
+          "checked": undefined,
+          "disabled": undefined,
+          "expanded": undefined,
+          "selected": undefined,
+        }
+      }
+      accessibilityValue={
+        {
+          "max": undefined,
+          "min": undefined,
+          "now": undefined,
+          "text": undefined,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        {
+          "backgroundColor": "#e0e0e0",
+          "borderRadius": 20,
+          "opacity": 1,
+          "paddingHorizontal": 20,
+          "paddingVertical": 10,
+        }
+      }
+    >
+      <Text
+        style={
+          [
+            {
+              "color": "#333",
+              "fontSize": 16,
+            },
+            false,
+          ]
+        }
+      >
+        Closed
+      </Text>
+    </View>
+  </View>
+  <View
+    style={
+      {
+        "flex": 1,
+        "marginTop": 0,
+        "width": "100%",
+      }
+    }
+  >
+    <RCTScrollView
+      ListEmptyComponent={
+        <Text>
+          No items
+        </Text>
+      }
+      data={
+        [
+          {
+            "amount": 150.75,
+            "date": "2024-08-01",
+            "description": "Grocery Shopping",
+            "id": "tx001",
+            "receiver": "Current user",
+            "sender": "Master of puppets",
+            "status": "closed",
+            "type": "debit",
+          },
+          {
+            "amount": 2500,
+            "date": "2024-08-03",
+            "description": "Salary",
+            "id": "tx002",
+            "receiver": "Current user",
+            "sender": "Master of puppets",
+            "status": "closed",
+            "type": "credit",
+          },
+        ]
+      }
+      getItem={[Function]}
+      getItemCount={[Function]}
+      keyExtractor={[Function]}
+      onContentSizeChange={[Function]}
+      onLayout={[Function]}
+      onMomentumScrollBegin={[Function]}
+      onMomentumScrollEnd={[Function]}
+      onScroll={[Function]}
+      onScrollBeginDrag={[Function]}
+      onScrollEndDrag={[Function]}
+      removeClippedSubviews={false}
+      renderItem={[Function]}
+      scrollEventThrottle={0.0001}
+      stickyHeaderIndices={[]}
+      style={
+        {
+          "padding": 20,
+        }
+      }
+      viewabilityConfigCallbackPairs={[]}
+    >
+      <View>
+        <View
+          onFocusCapture={[Function]}
+          onLayout={[Function]}
+          style={null}
+        >
+          <View
+            accessibilityState={
+              {
+                "busy": undefined,
+                "checked": undefined,
+                "disabled": undefined,
+                "expanded": undefined,
+                "selected": undefined,
+              }
+            }
+            accessibilityValue={
+              {
+                "max": undefined,
+                "min": undefined,
+                "now": undefined,
+                "text": undefined,
+              }
+            }
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            href="/transaction/tx001"
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            role="link"
+          >
+            <View
+              style={
+                {
+                  "backgroundColor": "#fff",
+                  "borderRadius": 8,
+                  "elevation": 2,
+                  "marginVertical": 8,
+                  "padding": 16,
+                  "shadowColor": "#000",
+                  "shadowOffset": {
+                    "height": 2,
+                    "width": 0,
+                  },
+                  "shadowOpacity": 0.1,
+                  "shadowRadius": 6,
+                }
+              }
+            >
+              <View
+                style={
+                  {
+                    "flexDirection": "row",
+                    "justifyContent": "space-between",
+                    "marginBottom": 8,
+                  }
+                }
+              >
+                <Text
+                  style={
+                    {
+                      "color": "#999",
+                      "fontSize": 12,
+                      "marginTop": 8,
+                    }
+                  }
+                >
+                  2024-08-01
+                </Text>
+                <Text
+                  style={
+                    [
+                      {
+                        "borderRadius": 4,
+                        "fontSize": 14,
+                        "fontWeight": "bold",
+                        "padding": 4,
+                      },
+                      {
+                        "backgroundColor": "#32CD32",
+                        "color": "#fff",
+                      },
+                    ]
+                  }
+                >
+                  CLOSED
+                </Text>
+              </View>
+              <Text
+                style={
+                  [
+                    {
+                      "color": "#000",
+                      "fontSize": 18,
+                      "fontWeight": "bold",
+                    },
+                    {
+                      "color": "#ff0000",
+                    },
+                  ]
+                }
+              >
+                -
+                $
+                150.75
+              </Text>
+            </View>
+          </View>
+        </View>
+        <View
+          onFocusCapture={[Function]}
+          onLayout={[Function]}
+          style={null}
+        >
+          <View
+            accessibilityState={
+              {
+                "busy": undefined,
+                "checked": undefined,
+                "disabled": undefined,
+                "expanded": undefined,
+                "selected": undefined,
+              }
+            }
+            accessibilityValue={
+              {
+                "max": undefined,
+                "min": undefined,
+                "now": undefined,
+                "text": undefined,
+              }
+            }
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            href="/transaction/tx002"
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            role="link"
+          >
+            <View
+              style={
+                {
+                  "backgroundColor": "#fff",
+                  "borderRadius": 8,
+                  "elevation": 2,
+                  "marginVertical": 8,
+                  "padding": 16,
+                  "shadowColor": "#000",
+                  "shadowOffset": {
+                    "height": 2,
+                    "width": 0,
+                  },
+                  "shadowOpacity": 0.1,
+                  "shadowRadius": 6,
+                }
+              }
+            >
+              <View
+                style={
+                  {
+                    "flexDirection": "row",
+                    "justifyContent": "space-between",
+                    "marginBottom": 8,
+                  }
+                }
+              >
+                <Text
+                  style={
+                    {
+                      "color": "#999",
+                      "fontSize": 12,
+                      "marginTop": 8,
+                    }
+                  }
+                >
+                  2024-08-03
+                </Text>
+                <Text
+                  style={
+                    [
+                      {
+                        "borderRadius": 4,
+                        "fontSize": 14,
+                        "fontWeight": "bold",
+                        "padding": 4,
+                      },
+                      {
+                        "backgroundColor": "#32CD32",
+                        "color": "#fff",
+                      },
+                    ]
+                  }
+                >
+                  CLOSED
+                </Text>
+              </View>
+              <Text
+                style={
+                  [
+                    {
+                      "color": "#000",
+                      "fontSize": 18,
+                      "fontWeight": "bold",
+                    },
+                    {
+                      "color": "#32CD32",
+                    },
+                  ]
+                }
+              >
+                +
+                $
+                2500.00
+              </Text>
+            </View>
+          </View>
+        </View>
+      </View>
+    </RCTScrollView>
+  </View>
+</View>
+`;
